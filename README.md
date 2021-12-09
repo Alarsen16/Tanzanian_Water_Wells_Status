@@ -79,9 +79,20 @@ The first step in doing our analysis here was to create a baseline model using S
 
 Our next model we chose to run was the Logistic Regression model from the SKLearn library. This model certainly improved our score from our baseline however we were confident we could do better. This model struggled greatly to predict wells that were functional however needed repair. This was due to significant class imbalances in that specific class, and despite trying to add weights into, the model seemed to perform best without hypertuned parameters.
 
-### K-Nearest Neighbors
+[add images for score/confusion matrix in read me here for logistic regression]
+
 ### Decision Trees
-### Losgistic Regression
+
+
+
+### k Nearest Neighbors
+
+After decision tree, we then decided to try running a k Nearest Neighbor test to see if that model was better suited for our dataset of Tanzanian wells. Not to much surprise, this model outperformed all other models that we had run previously. We ran 3 different KNN models after using gridsearch trying to determine what the best number of neighbors was; we used a rather large range on our first gridsearch to which we found the optimal amount to be 11. We ran another gridsearch of odd values between 1 and 11 after if there was a better optimzied number of neighbors to which we found 7. 
+
+[add confusion and scores for this model]
+
+
+### 
 ### Random Forest(Possibly)
 ##### sort in acsending model performance with best model being final
 
