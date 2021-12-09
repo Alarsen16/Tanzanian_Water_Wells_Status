@@ -34,22 +34,49 @@ When we first started to take a look at the data set which was given to us in a 
 7. permit
 8. wpt name
 
-Funder, Installer, Subvillage, WPT Name
+Funder, Installer, Subvillage, WPT Name:
 
-After examining the data in these columns, which we noticed were caterogical data types, we quickly realized that the sheer number of unique values each of these predictors contained. In not wanting to over pollute our data set with 2000+ new columns of one hot encoded data, we decided to drop these columns given we weren't able to find a good use for the data contained inside. It's certainly worth noting at this point in time that outside of funder, which was a unique column, the other three columns had **very** similar data inside that was much more useful for our model. An example of this would be scheme_management, scheme_name and management.
+After examining the data in these columns, which we noticed were caterogical data types, we quickly realized that the sheer number of unique values each of these predictors contained. In not wanting to over pollute our data set with 2000+ new columns of one hot encoded data, we decided to drop these columns given we weren't able to find a good use for the data contained inside. It's certainly worth noting at this point in time that outside of funder, which was a unique column, the other three columns had **very** similar data inside that was much more useful for our model. An example of this would be scheme management, scheme name and management.
 
+Large number of Repititive data sources:
 
+Like we mentioned above, there were a large number of very repitive columns across our data. To avoid feeding our model with highly correlated items, we dropped the following columns:
 
+1. scheme name
+2. scheme management
+3. waterpoint type
+4. source
+5. source class
+6. water quality
+7. payment
+8. quantity
+9. management group
+10. extraction type
+11. extraction type class
+12. ward
+13. lga
+
+Additionally, there were data points that we viewed would be useless to our model so we decided to drop them altogether. Some of these data points didn't offer what they were pertained to/had no description or would have little to no impact on the model's outcome.
+
+1. public meeting
+2. date recorded
+3. recorded by
+4. num private
+
+This left us with a solid 18 features and ~54k rows of data to begin performing our data anaylsis on. 
 
 ## EDA
 
 ## Modeling
-### K-Nearest Neighbors
 
+Baseline Model - Dummy Regressor
+
+The first step in doing our analysis here. 
+
+### K-Nearest Neighbors
 ### Decision Trees
 ### Losgistic Regression
-### Rain Forest(Possibly)
-### Naive Bayes(Possibly)
+### Random Forest(Possibly)
 ##### sort in acsending model performance with best model being final
 
 
