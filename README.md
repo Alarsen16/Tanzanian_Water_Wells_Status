@@ -81,13 +81,18 @@ The first step in doing our analysis here.
 
 
 
-## Evaluation
+## Next Steps & Conclusion
+
+
+Our best model ended up being the Random Forest model, which gave us an accuracy rating of 80% as you can see above. When our model was placed against the test data, we can see by the heatmaps below that we ended up being able to predict the regions in which wells needed repairs. This is incredibly helpful in helping guide the Tanzanian goverment's various water divisions in target certain areas to focus.
 
 
 
+To start, our immediate next steps would be to work with a new data set of roughly 15,000 wells whose statuses are unidentified. 
 
+After coming up with those predictions, we’d love to continue to partner with the Tanzanian Ministry of Water on a quarterly basis to focus funding and aid to repairing wells in regions with the highest density of non-functional wells. We dove a bit further to see if there were any regions that matched both high density of non-functional wells as well as areas that were highly populated. One example of this is the city of Mtwara in the Mtwara region which is region located in the most southeast corner of Tanzania. Conversely and something our group found extremely interesting was that the Lindi region, which is just north of Mtwara has the lowest population density however one the highest density of non-functional wells. While it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. 
 
-
+In conclusion and while it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. We'd also like to continue working together in tandem on a quarterly basis to continue our upkeeping of wells across tanzania so we can tackle this water crisis, which has spanned over 20 years, altogether.
 
 
 
