@@ -71,7 +71,13 @@ This left us with a solid 18 features and ~54k rows of data to begin performing 
 
 Baseline Model - Dummy Regressor
 
-The first step in doing our analysis here. 
+The first step in doing our analysis here was to create a baseline model using SKLearn's DummyClassifier model. This model predicts the target variable based on the mean, which gave us a pretty poor accuracy score of about 44%. This performed slightly worse than 50% because we were trying to predict a ternary model however was close to 50% given the data was heavily imbalanced.
+
+[add images for score/confusion matrix in read me here for dummy regressor]
+
+### Losgistic Regression
+
+Our next model we chose to run was the Logistic Regression model from the SKLearn library. This model certainly improved our score from our baseline however we were confident we could do better. This model struggled greatly to predict wells that were functional however needed repair. This was due to significant class imbalances in that specific class, and despite trying to add weights into, the model seemed to perform best without hypertuned parameters.
 
 ### K-Nearest Neighbors
 ### Decision Trees
@@ -86,7 +92,7 @@ The first step in doing our analysis here.
 
 Our best model ended up being the Random Forest model, which gave us an accuracy rating of 80% as you can see above. When our model was placed against the test data, we can see by the heatmaps below that we ended up being able to predict the regions in which wells needed repairs. This is incredibly helpful in helping guide the Tanzanian goverment's various water divisions in target certain areas to focus.
 
-
+[add maps here]
 
 To start, our immediate next steps would be to work with a new data set of roughly 15,000 wells whose statuses are unidentified. 
 
