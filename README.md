@@ -85,6 +85,7 @@ Our next model we chose to run was the Logistic Regression model from the SKLear
 
 ### Decision Trees
 
+![DecisionTreeMatrix](https://user-images.githubusercontent.com/92402366/145500344-f1f0766b-b19f-4f5a-a3b9-ff4e1c7affe0.png)
 
 
 ### k Nearest Neighbors
