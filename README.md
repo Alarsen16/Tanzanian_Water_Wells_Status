@@ -111,7 +111,13 @@ We finally come to our ending model that had the greatest prediction accuracy, R
 
 Our best model ended up being the Random Forest model, which gave us an accuracy rating of 80% as you can see above. When our model was placed against the test data, we can see by the heatmaps below that we ended up being able to predict the regions in which wells needed repairs. This is incredibly helpful in helping guide the Tanzanian goverment's various water divisions in target certain areas to focus.
 
+Actual Well Statuses:
 
+<img width="921" alt="y_true_regions" src="https://user-images.githubusercontent.com/92397698/145596340-e1fff916-182d-42d9-b767-790f6dea4e0f.png">
+
+Our Predictions:
+
+<img width="935" alt="y_pred_regions" src="https://user-images.githubusercontent.com/92397698/145596080-720d4851-4364-49b5-809e-6b1f1acd5fce.png">
 
 To start, our immediate next steps would be to work with a new data set of roughly 15,000 wells whose statuses are unidentified. 
 
