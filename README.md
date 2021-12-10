@@ -131,15 +131,18 @@ Based on our model, we’d love to continue to partner with the Tanzanian Minist
 In conclusion and while it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. We'd also like to continue working together in tandem on a quarterly basis to continue our upkeeping of wells across tanzania so we can tackle this water crisis, which has spanned over 20 years, altogether.
 
 Navigating our Repo:
+
 Final Notebook: this contains our final clean notebook explaining how we filtered throughout different models, cleaned our data as well as a variety of scores, confusion matrices as well graphs of the performances of our final model. 
-personal_notebooks: all of our data cleaning and original EDA can be found in our personal notebooks. This includes model creation as well as different graphs and extensive gridsearching to find optimal models.
-data: this folder contains various .csv files we used for this project as well as external .geojson files we used to create heatmaps of tanzania.
 
+Personal_notebooks: all of our data cleaning and original EDA can be found in our personal notebooks. This includes model creation as well as different graphs and extensive gridsearching to find optimal models.
 
+Data: this folder contains various .csv files we used for this project as well as external .geojson files we used to create heatmaps of tanzania.
 
 
 External Links:
-
+[Presentation](https://docs.google.com/presentation/d/1Mj393_kqG_fkaspYlm7KJoTdvxPBpcY-81k4w0ZfYyQ/edit?usp=sharing)
+[Data Source](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/25/)
+[Tanzania GEOJSON](https://gadm.org/download_country.html)
 
 
 
