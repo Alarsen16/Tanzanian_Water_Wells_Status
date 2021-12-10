@@ -98,7 +98,8 @@ After decision tree, we then decided to try running a k Nearest Neighbor test to
 
 ### 
 ### Random Forest(Possibly)
-##### sort in acsending model performance with best model being final
+![RandomForestMatrix](https://user-images.githubusercontent.com/92402366/145500496-e6795759-928f-41bf-8796-490369659aea.png)
+
 
 
 
