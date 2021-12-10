@@ -65,7 +65,7 @@ Additionally, there were data points that we viewed would be useless to our mode
 
 This left us with a solid 18 features and ~54k rows of data to begin performing our data anaylsis on. 
 
-## EDA
+
 
 ## Modeling
 
@@ -85,8 +85,7 @@ Our next model we chose to run was the Logistic Regression model from the SKLear
 
 
 ### Decision Trees
-
-After running a grid search we found our optimal parameters for our decision tree
+The following model was that off Decision Tree. Decision Trees when not tuned will tend to overfit the training data. We will get a high score on the training data but when applied to the unseen test data it showed low performance. After running a grid search we found our optimal parameters for our decision tree
 * max_depth=30 
 * min_impurity_split=0.3
 *  min_samples_split= 2
