@@ -73,7 +73,8 @@ Baseline Model - Dummy Regressor
 
 The first step in doing our analysis here was to create a baseline model using SKLearn's DummyClassifier model. This model predicts the target variable based on the mean, which gave us a pretty poor accuracy score of about 44%. This performed slightly worse than 50% because we were trying to predict a ternary model however was close to 50% given the data was heavily imbalanced.
 
-[add images for score/confusion matrix in read me here for dummy regressor]
+![DummyMatrixProject3](https://user-images.githubusercontent.com/92402366/145499638-14d6474a-4cfd-4901-b984-c011a21d36ba.png)
+
 
 ### Logistic Regression
 
