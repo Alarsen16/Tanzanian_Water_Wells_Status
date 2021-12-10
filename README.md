@@ -80,7 +80,8 @@ The first step in doing our analysis here was to create a baseline model using S
 
 Our next model we chose to run was the Logistic Regression model from the SKLearn library. This model certainly improved our score from our baseline however we were confident we could do better. This model struggled greatly to predict wells that were functional however needed repair. This was due to significant class imbalances in that specific class, and despite trying to add weights into, the model seemed to perform best without hypertuned parameters.
 
-[add images for score/confusion matrix in read me here for logistic regression]
+![logisticmatrix](https://user-images.githubusercontent.com/92402366/145499888-d8931667-628f-4d2a-98ee-669c2d25cf18.png)
+
 
 ### Decision Trees
 
