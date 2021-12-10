@@ -115,17 +115,25 @@ Actual Well Statuses:
 
 <img width="921" alt="y_true_regions" src="https://user-images.githubusercontent.com/92397698/145596340-e1fff916-182d-42d9-b767-790f6dea4e0f.png">
 
-Our Predictions:
+Our Predictions on training data:
 
 <img width="935" alt="y_pred_regions" src="https://user-images.githubusercontent.com/92397698/145596080-720d4851-4364-49b5-809e-6b1f1acd5fce.png">
 
-To start, our immediate next steps would be to work with a new data set of roughly 15,000 wells whose statuses are unidentified. 
+Based on the above heatmaps, we can see that our predictions on the training data looked to be greatly inline with the actual statuses of the well. Most importantly given the crisis we're trying to help fix and the implications on Tanzanians, we were able to predic the two statuses of the Mtwara and Lindi regions, which had the highest concentration of wells that were non-functional. 
 
-After coming up with those predictions, we’d love to continue to partner with the Tanzanian Ministry of Water on a quarterly basis to focus funding and aid to repairing wells in regions with the highest density of non-functional wells. We dove a bit further to see if there were any regions that matched both high density of non-functional wells as well as areas that were highly populated. One example of this is the city of Mtwara in the Mtwara region which is region located in the most southeast corner of Tanzania. Conversely and something our group found extremely interesting was that the Lindi region, which is just north of Mtwara has the lowest population density however one the highest density of non-functional wells. While it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. 
+We then ran our model on roughly 15,000 wells that we didn't know the statuses for. As you can see from our map below, these undocumented wells seem to follow a very similar distribution to both prior maps. It seems that the same regions and different general zones across Tanzania follow the same concentration of well statuses. This is in-line with what we'd expect given that we found geographical features, as James mentioned earlier, to be the highest contributors in all of our models. 
+
+<img width="920" alt="y_unknown_pred" src="https://user-images.githubusercontent.com/92397698/145600716-ec17d6eb-5421-419f-92b5-151c77feaa3b.png">
+
+
+Based on our model, we’d love to continue to partner with the Tanzanian Ministry of Water on a quarterly basis to focus funding and aid to repairing wells in regions with the highest density of non-functional wells. We dove a bit further to see if there were any regions that matched both high density of non-functional wells as well as areas that were highly populated. One example of this is the city of Mtwara in the Mtwara region which is region located in the most southeast corner of Tanzania. Conversely and something our group found extremely interesting was that the Lindi region, which is just north of Mtwara has the lowest population density however one the highest density of non-functional wells. While it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. 
 
 In conclusion and while it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. We'd also like to continue working together in tandem on a quarterly basis to continue our upkeeping of wells across tanzania so we can tackle this water crisis, which has spanned over 20 years, altogether.
 
 Navigating our Repo:
+Final Notebook: this contains our final clean notebook explaining how we filtered throughout different models, cleaned our data as well as a variety of scores, confusion matrices as well graphs of the performances of our final model. 
+personal_notebooks: all of our data cleaning and original EDA can be found in our personal notebooks. This includes model creation as well as different graphs and extensive gridsearching to find optimal models.
+data: this folder contains various .csv files we used for this project as well as external .geojson files we used to create heatmaps of tanzania.
 
 
 
