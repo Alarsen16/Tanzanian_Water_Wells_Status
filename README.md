@@ -141,7 +141,9 @@ Data: this folder contains various .csv files we used for this project as well a
 
 External Links:
 [Presentation](https://docs.google.com/presentation/d/1Mj393_kqG_fkaspYlm7KJoTdvxPBpcY-81k4w0ZfYyQ/edit?usp=sharing)
+
 [Data Source](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/25/)
+
 [Tanzania GEOJSON](https://gadm.org/download_country.html)
 
 
