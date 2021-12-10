@@ -91,7 +91,8 @@ Our next model we chose to run was the Logistic Regression model from the SKLear
 
 After decision tree, we then decided to try running a k Nearest Neighbor test to see if that model was better suited for our dataset of Tanzanian wells. Not to much surprise, this model outperformed all other models that we had run previously. We ran 3 different KNN models after using gridsearch trying to determine what the best number of neighbors was; we used a rather large range on our first gridsearch to which we found the optimal amount to be 11. We ran another gridsearch of odd values between 1 and 11 after if there was a better optimzied number of neighbors to which we found 7. 
 
-[add confusion and scores for this model]
+![KNNMatrix](https://user-images.githubusercontent.com/92402366/145500080-ac0a9a7c-39f5-4ef3-bf33-569e6754d91f.png)
+
 
 
 ### 
