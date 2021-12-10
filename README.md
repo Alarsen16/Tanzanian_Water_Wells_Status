@@ -74,18 +74,20 @@ Baseline Model - Dummy Regressor
 The first step in doing our analysis here was to create a baseline model using SKLearn's DummyClassifier model. This model predicts the target variable based on the mean, which gave us a pretty poor accuracy score of about 44%. This performed slightly worse than 50% because we were trying to predict a ternary model however was close to 50% given the data was heavily imbalanced.
 
 ![DummyMatrixProject3](https://user-images.githubusercontent.com/92402366/145499638-14d6474a-4cfd-4901-b984-c011a21d36ba.png)
-
+![dummyroc](https://user-images.githubusercontent.com/92402366/145502511-c009b353-b9a1-4acc-a7ca-30f7da4df39b.png)
 
 ### Logistic Regression
 
 Our next model we chose to run was the Logistic Regression model from the SKLearn library. This model certainly improved our score from our baseline however we were confident we could do better. This model struggled greatly to predict wells that were functional however needed repair. This was due to significant class imbalances in that specific class, and despite trying to add weights into, the model seemed to perform best without hypertuned parameters.
 
 ![logisticmatrix](https://user-images.githubusercontent.com/92402366/145499888-d8931667-628f-4d2a-98ee-669c2d25cf18.png)
+![logroc](https://user-images.githubusercontent.com/92402366/145502519-9e70e3c0-46c7-4840-b6b1-171763dc09a1.png)
 
 
 ### Decision Trees
 
 ![DecisionTreeMatrix](https://user-images.githubusercontent.com/92402366/145500344-f1f0766b-b19f-4f5a-a3b9-ff4e1c7affe0.png)
+![decisiontreeroc](https://user-images.githubusercontent.com/92402366/145502553-08693893-c815-4588-8c6b-b9ea5fff2147.png)
 
 
 ### k Nearest Neighbors
@@ -93,12 +95,14 @@ Our next model we chose to run was the Logistic Regression model from the SKLear
 After decision tree, we then decided to try running a k Nearest Neighbor test to see if that model was better suited for our dataset of Tanzanian wells. Not to much surprise, this model outperformed all other models that we had run previously. We ran 3 different KNN models after using gridsearch trying to determine what the best number of neighbors was; we used a rather large range on our first gridsearch to which we found the optimal amount to be 11. We ran another gridsearch of odd values between 1 and 11 after if there was a better optimzied number of neighbors to which we found 7. 
 
 ![KNNMatrix](https://user-images.githubusercontent.com/92402366/145500080-ac0a9a7c-39f5-4ef3-bf33-569e6754d91f.png)
+![knnroc](https://user-images.githubusercontent.com/92402366/145502526-75ac193a-af55-41fd-88e7-ea86c1409424.png)
 
 
 
 ### 
 ### Random Forest(Possibly)
 ![RandomForestMatrix](https://user-images.githubusercontent.com/92402366/145500496-e6795759-928f-41bf-8796-490369659aea.png)
+![randomforestroc](https://user-images.githubusercontent.com/92402366/145502544-a4853c29-e975-4bab-b653-b3518248640c.png)
 
 
 
@@ -115,6 +119,8 @@ To start, our immediate next steps would be to work with a new data set of rough
 After coming up with those predictions, we’d love to continue to partner with the Tanzanian Ministry of Water on a quarterly basis to focus funding and aid to repairing wells in regions with the highest density of non-functional wells. We dove a bit further to see if there were any regions that matched both high density of non-functional wells as well as areas that were highly populated. One example of this is the city of Mtwara in the Mtwara region which is region located in the most southeast corner of Tanzania. Conversely and something our group found extremely interesting was that the Lindi region, which is just north of Mtwara has the lowest population density however one the highest density of non-functional wells. While it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. 
 
 In conclusion and while it’s hard to make a decision like this, we’d certainly implore the Tanzanian government to focus immediate efforts in remediating issues in the Mtwara region before exploring and helping the Lindi region next. By doing so, you’d effectively resolve the water crisis for ~500k additional people that are in a much more concentrated area. We'd also like to continue working together in tandem on a quarterly basis to continue our upkeeping of wells across tanzania so we can tackle this water crisis, which has spanned over 20 years, altogether.
+
+
 
 
 
